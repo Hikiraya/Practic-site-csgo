@@ -1,0 +1,22 @@
+{
+  "name": "practic-site-csgo",
+  "version": "1.0.0",
+  "description": "Коллективный ропозиторий для создания сайта",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Hikiraya/Practic-site-csgo.git"
+  },
+  "keywords": [
+    "Практика"
+  ],
+  "author": "Group",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hikiraya/Practic-site-csgo/issues"
+  },
+  "homepage": "https://github.com/Hikiraya/Practic-site-csgo#readme"
+}
