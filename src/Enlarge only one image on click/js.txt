@@ -1,0 +1,17 @@
+вставлять между тегами <head> и </head>
+
+<script language = "JavaScript">
+  var bigsize = "300"; //Размер большой картинки
+  var smallsize = "150"; //Размер маленькой картинки
+  var active_img = 0;
+  function changeSizeOneImage(im) {
+    if (active_img == im) {
+      active_img.height = smallsize;
+      active_img = 0;
+      return;
+    }
+    if (active_img != 0) active_img.height = smallsize;
+    active_img = im;
+    im.height = bigsize;
+  }
+</script>

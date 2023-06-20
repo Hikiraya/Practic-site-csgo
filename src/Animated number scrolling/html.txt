@@ -1,0 +1,6 @@
+<ul class="jcount">
+   <li>Заявок<span class="count">12</span></li>
+   <li>Клиентов<span class="count">36</span></li>
+   <li>Звонков<span class="count">54</span></li>
+   <li>Проектов<span class="count">67</span></li>
+</ul>

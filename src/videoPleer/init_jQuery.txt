@@ -1,0 +1,59 @@
+const player = new Plyr('#player', {
+    invertTime: false,
+});
+player.source = {
+    type: 'video',
+    poster: 'Outback.jpg', // Путь к постеру по умолчанию
+    sources: [
+        {
+            src: 'Outback.mp4', // Путь к постеру по умолчанию
+            type: 'video/mp4',
+            size: 720
+        }
+    ]
+};
+$(function() {
+    // Включение трека по клику
+    $('.change-video').click(function(){
+        $('.change-video').removeClass('active');
+        $(this).addClass('active');   
+        let videourl = $(this).attr('data-video');
+        let videoposter = $(this).attr('data-poster');
+        player.source = {
+            type: 'video',
+            poster: videoposter,
+            sources: [
+                {
+                    src: videourl,
+                    type: 'video/mp4',
+                    size: 720
+                }
+            ]
+        };       
+    //    player.play(); // если нужно запускать видео сразу по клику, раскомментируйте эту строчку
+    });
+    // Переключение аидео на следующее по окончанию   
+    player.on('ended', event => {
+        let nextvideo = $('.change-video.active').next(".change-video");
+        let urlnextvideo = nextvideo.attr('data-video');
+        let urlnextposter = nextvideo.attr('data-poster');
+        if (!urlnextvideo) {
+            player.stop();    
+            } else {
+            $('.change-video').removeClass('active');
+            nextvideo.addClass('active');
+            player.source = {
+                type: 'video',
+                poster: urlnextposter,
+                sources: [
+                    {
+                        src: urlnextvideo,
+                        type: 'video/mp4',
+                        size: 720
+                    }
+                ]
+            };       
+        //    player.play(); // если нужно сразу запускать следующее видео, раскомментируйте эту строчку
+        }
+    });   
+});   

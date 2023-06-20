@@ -1,0 +1,20 @@
+код прокртуки страницы
+
+<span id="top"></span>
+ 
+<div class="outer">
+  <div class="middle">
+    <div class="inner">
+      <img src="/upload/scroll-jquery/arrow1.png" alt="">
+      <img src="/upload/scroll-jquery/arrow2.png" alt="">
+      <img src="/upload/scroll-jquery/arrow3.png" alt="">
+      <img src="/upload/scroll-jquery/arrow4.png" alt="">
+    </div>
+  </div>
+</div>
+ 
+<div id="scroll-bottom"></div>
+ 
+<p id="back-top">
+  <a href="#top"><span></span></a>
+</p>
