@@ -6,8 +6,8 @@ h1,
 h2,
 h3,
 h4 {
-    color: orange
-    font-weight: normal
+    color: orange;
+    font-weight: normal;
     text-align: center
 }
 h1 {
@@ -24,7 +24,7 @@ h4 {
     font-size: medium;
 }
 p {
-    color: grey
-    text-align: justify
+    color: grey;
+    text-align: justify;
     font-size: small
 }
