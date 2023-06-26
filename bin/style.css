@@ -1,0 +1,30 @@
+body {
+    width: auto
+    
+}
+h1,
+h2,
+h3,
+h4 {
+    color: orange
+    font-weight: normal
+    text-align: center
+}
+h1 {
+    font-weight: bold;
+    font-size: medium;
+}
+h2 {
+    font-size: medium;
+}
+h3 {
+    font-size: medium;
+}
+h4 {
+    font-size: medium;
+}
+p {
+    color: grey
+    text-align: jusify
+    font-size: small
+}
