@@ -6,9 +6,18 @@ h1,
 h2,
 h3,
 h4 {
+
     color: orange
     font-weight normal;
-    text-align: center
+    text-align: center;
+
+    color: orange;
+    font-weight: normal;
+
+    color: orange;
+    font-weight: normal;
+    
+    text-align: center;
 }
 h1 {
     font-weight: bold;
@@ -25,6 +34,6 @@ h4 {
 }
 p {
     color: grey;
-    text-align: jusify;
+    text-align: justify;
     font-size: small
 }
