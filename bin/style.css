@@ -6,8 +6,13 @@ h1,
 h2,
 h3,
 h4 {
+<<<<<<< HEAD
     color: orange;
     font-weight: normal;
+=======
+    color: orange;
+    font-weight normal
+>>>>>>> d20875e (new commit)
     text-align: center
 }
 h1 {
