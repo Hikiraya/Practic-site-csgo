@@ -1,14 +1,19 @@
 body {
-    width: auto
-    
+    width: auto;
+    margin: 0 auto;
+    padding: 100px 0;
+
+    font-family: 'Times New Roman';
+    font-style: normal;
+    font-variant: normal;
 }
 h1,
 h2,
 h3,
 h4 {
 
-    color: orange
-    font-weight normal;
+    color: orange;
+    font-weight: normal;
     text-align: center;
 
     color: orange;
