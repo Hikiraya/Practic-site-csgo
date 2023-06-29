@@ -42,3 +42,60 @@ p {
     text-align: justify;
     font-size: small
 }
+
+.Ancient.html {
+    p {
+        color: grey;
+        text-align: justify;
+        font-size: small;
+    };
+
+}
+
+.Anubis.html {
+    p {
+        color: grey;
+        text-align: justify;
+        font-size: small;
+    };
+}
+
+.Inferno.html {
+    p {
+        color: grey;
+        text-align: justify;
+        font-size: small;
+    };
+}
+
+.Mirage.html {
+    p {
+        color: grey;
+        text-align: justify;
+        font-size: small;
+    };
+}
+
+.Nuke.html {
+    p {
+        color: grey;
+        text-align: justify;
+        font-size: small;
+    };
+}
+
+.Overpass.html {
+    p {
+        color: grey;
+        text-align: justify;
+        font-size: small;
+    };
+}
+
+.Vertigo.html {
+    p {
+        color: grey;
+        text-align: justify;
+        font-size: small;
+    }
+}
